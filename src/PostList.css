@@ -1,0 +1,24 @@
+.posts-page {
+  width: min(900px, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+.posts-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-card {
+  padding: 1rem 1.25rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.5rem;
+  background: white;
+}
+
+.post-card h2 {
+  margin-top: 0;
+}
+
+.post-tags {
+  font-weight: 600;
+}
